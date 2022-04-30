@@ -32,20 +32,18 @@ header > p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 5px;
 }
 
 .hill-photo {
-  max-width: 700px;
+  max-width: 500px;
   border-radius: 18px;
-  margin: 15px;
 }
 
 .details {
-  width: 700px;
-  height: 520px;
-  margin: 15px;
+  width: 500px;
+  height: 400px;
   background: salmon;
   border-radius: 16px;
   box-shadow: 0 0 10px 0 red;
@@ -62,7 +60,7 @@ header > p {
 
 .btn {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 button {
@@ -94,9 +92,9 @@ button:focus {
 }
 
 .content p {
-  margin: 20px;
+  margin: 10px;
   letter-spacing: 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media (min-width: 320px) {
@@ -157,13 +155,13 @@ button:focus {
     border-radius: 16px;
   }
   .hill-photo {
-    max-width: 700px;
+    max-width: 600px;
     border-radius: 18px;
     margin: 15px;
   }
   .details {
-    width: 700px;
-    height: 520px;
+    width: 600px;
+    height: 450px;
     margin: 15px;
     background: salmon;
     border-radius: 16px;
