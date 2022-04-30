@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+}
+
+header {
+  width: fit-content;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 0 10px 0 wheat;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+header > h1 {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+header > p {
+  font-size: 18px;
+  padding-top: 10px;
+  opacity: 0.75;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.hill-photo {
+  max-width: 700px;
+  border-radius: 18px;
+  margin: 15px;
+}
+
+.details {
+  width: 700px;
+  height: 520px;
+  margin: 15px;
+  background: salmon;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 0 red;
+}
+
+/*#visitTxt,
+#reachTxt {
+  display: none;
+}*/
+
+.content {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 233px;
+  height: 60px;
+  border: 3px solid #ddd;
+  border-radius: 16px;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+button:hover {
+  border: 2px solid #ddd;
+  background: gainsboro;
+}
+
+button:focus {
+  background-color: orangered;
+}
+
+#displayTxt {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.content p {
+  margin: 20px;
+  letter-spacing: 5px;
+  padding: 20px;
+}
+
+@media (min-width: 320px) {
+  header {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px 0 wheat;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  .hill-photo {
+    max-width: 400px;
+    border-radius: 18px;
+    margin: 10px auto;
+  }
+  .details {
+    width: 400px;
+    height: fit-content;
+    margin: 15px;
+    background: salmon;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 red;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px 0 wheat;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  .hill-photo {
+    max-width: 400px;
+    border-radius: 18px;
+    margin: 10px auto;
+  }
+  .details {
+    width: 400px;
+    height: fit-content;
+    margin: 15px;
+    background: salmon;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 red;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    width: fit-content;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 0 10px 0 wheat;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  .hill-photo {
+    max-width: 700px;
+    border-radius: 18px;
+    margin: 15px;
+  }
+  .details {
+    width: 700px;
+    height: 520px;
+    margin: 15px;
+    background: salmon;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 red;
+  }
+}
